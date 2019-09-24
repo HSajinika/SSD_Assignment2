@@ -1,0 +1,67 @@
+#progress-wrp {
+    border: 1px solid #0099CC;
+    padding: 1px;
+    position: relative;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+  }
+  
+  #progress-wrp .progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    background-color: #4AA02C;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+  }
+  
+  #progress-wrp .status {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+  }
+
+  #containerDiv {
+    position:fixed;
+    top: 35%;
+    left: 35%;
+    right: 35%;
+    bottom: 35%;
+    width:60em;
+    height:35em;
+    margin-top: -10em; /*set to a negative number 1/2 of your height*/
+    margin-bottom: -9em;
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    margin-right: -15em;
+    border: 1px solid #ccc;
+    background-color: #E0FFFF;
+  }
+
+  #upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  #upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+
+  #btn {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+  }

@@ -1,0 +1,21 @@
+#containerDiv {
+    position:fixed;
+    top: 35%;
+    left: 50%;
+    width:25em;
+    height:30em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #E0FFFF;
+  }
+
+  #wrapper {
+    display: flex;
+  justify-content: center;
+  }
+
+  #styleimg{
+    display:block;
+    margin:auto;
+}

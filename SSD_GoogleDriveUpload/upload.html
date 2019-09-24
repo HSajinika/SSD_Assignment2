@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GDrive Upload App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="upload.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-8nq3OiMMgrVFAHyRMMO+DTfMEciSY+c3Awhj/5ljQ1xck1Uv2BUtMjsjLD8GT5Er" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="upload.js"></script>
+</head>
+<body>
+   <div id="containerDiv" >
+        <div class="upload-btn-wrapper" style="height: 20em;align-items: center">
+                <input id="files" class="btn" type="file" name="files[]" style="width:500px;margin-left:375px;margin-top:200px;" multiple/>
+        </div>
+     
+     <div style="display:flex;justify-content: center;">
+        <button id="upload" type="button" class="btn btn-primary">Upload</button>
+    </div>
+     <div>
+        <div id="progress-wrp">
+          <div class="progress-bar"></div>
+          <div class="status">0%</div>
+        </div>
+     </div>
+     
+   </div> 
+   <div id="result">
+       
+   </div>
+</body>
+</html>
